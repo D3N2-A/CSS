@@ -32,9 +32,6 @@ a {
   padding-top: 100px;
 }
 
-p {
-  display: inline-block;
-}
 .top-cloud {
   position: absolute;
   right: 300px;
@@ -48,4 +45,25 @@ p {
 }
 .pro {
   text-decoration: underline;
+}
+
+.skill-row {
+  height: 50%;
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.web {
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.game {
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }
