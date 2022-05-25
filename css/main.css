@@ -25,11 +25,14 @@ h3 {
 a {
   color: #11999e;
 }
-
+p {
+  margin: 0;
+}
 .container-1 {
-  background-color: #f4bfbf;
+  background-color: #FFD9C0;
   position: relative;
   padding-top: 100px;
+  padding-bottom: 0px;
 }
 
 .top-cloud {
@@ -66,4 +69,60 @@ a {
   width: 25%;
   float: right;
   margin-left: 30px;
+}
+.pfp {
+  height: 20%;
+  width: 20%;
+}
+hr {
+  border: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  color: grey;
+}
+
+.profile {
+  margin: 100px auto;
+}
+.contact-me {
+  margin: 100px;
+}
+.bottom-container {
+  background-color: #8cc0de;
+  padding: 50px;
+}
+.footer-link {
+  margin: 20px;
+  text-decoration: none;
+  color: #62869b;
+}
+.btn {
+  -webkit-border-radius: 23;
+  -moz-border-radius: 23;
+  border-radius: 23px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #f4bfbf;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  margin: 100px auto;
+  top: 50px;
+}
+
+.btn:hover {
+  background: #ffd9c0;
+  background-image: -webkit-linear-gradient(top, #ffd9c0, #f4bfbf);
+  background-image: -moz-linear-gradient(top, #ffd9c0, #f4bfbf);
+  background-image: -ms-linear-gradient(top, #ffd9c0, #f4bfbf);
+  background-image: -o-linear-gradient(top, #ffd9c0, #f4bfbf);
+  background-image: linear-gradient(to bottom, #ffd9c0, #f4bfbf);
+  text-decoration: none;
+}
+.copyright {
+  color: white;
+  margin: 20px;
+  font-size: 1rem;
 }
